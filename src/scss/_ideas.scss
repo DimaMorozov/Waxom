@@ -1,0 +1,148 @@
+.ideas {
+    background-color: #fbfaf8;
+    position: relative;
+
+    &__title {
+        font-family: 'Raleway', sans-serif;
+        color: #555555;
+        font-size: 1.875vw;
+        text-align: center;
+        margin-bottom: 1.5vw;
+
+        @media all and (max-width: 1000px) {
+            font-size: 5vw;
+        }
+    }
+
+    &__text {
+        font-family: 'Montserrat', sans-serif;
+        color: #8c8c8c;
+        font-size: 1vw;
+        font-weight: 300;
+        line-height: 1.75;
+        text-align: center;
+        margin-bottom: 4.5vw;
+
+        @media all and (max-width: 1000px) {
+            font-size: 3vw;
+            font-weight: 600;
+        }
+    }
+
+    &__slider {
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 2em;
+
+        @media all and (max-width: 1500px) {
+            display: none;
+        }
+
+        @media all and (min-width: 2000px) {
+            display: none;
+        }
+    }
+
+    .carousel {
+        margin: 0 auto;
+        width: 50vw;
+        height: 18.750vw;
+        display: relative;
+    }
+
+    .carousel img {
+        display: hidden;
+        cursor: pointer;
+    }
+}
+
+.wrapper__images {
+    display: none;
+    
+
+    @media all and (min-width: 2000px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 7vw;
+    }
+
+    @media all and (max-width: 1500px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+        margin-top: 7vw;
+    }
+
+    img {
+        margin-bottom: 3vw;
+        width: 100%;
+    }
+}
+
+
+.background{
+        background: linear-gradient(90deg, #211b19 0%, #4e3427 100%) 50% no-repeat;
+        width: 100%;
+        background-size: cover;
+        position: relative;
+        z-index: 25;
+        
+        @media all and (max-width: 900px){
+            padding-bottom: 5%;
+        }
+       
+    &__content{
+         padding-top: 3vw;
+        
+
+    }
+
+    &__title{
+        font-family: 'Raleway', sans-serif;
+        color:  #c7b299;
+        font-size: 1.75em;
+        font-weight: 400;
+        text-align: left;
+        
+        @media all and (max-width: 900px){
+            font-size: 1.375em;
+            margin-bottom: 0.5em;
+        }
+    }
+
+    &__text{
+        font-family: 'Montserrat', sans-serif;
+        color:  #615855;
+        font-size: 1.125em;
+        font-weight: 300;
+        text-align: left;
+        padding-bottom: 3em;
+        
+        @media all and (max-width: 900px){
+            font-size: 1em;
+            padding-bottom: 1em;
+        }
+    }
+
+    &__btn{
+        position: absolute;
+        top: 33%;
+        right: 10%;
+        
+        @media all and (max-width: 900px){
+            position: static;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,71 @@
+
+.services{
+	background-color:  white;
+	padding-top: 5.625vw;
+	
+    &__grid{
+		width: 100%;
+		display: flex;
+		margin-bottom: 5vw;
+		font-family: 'Raleway', sans-serif;
+		color:  #555555;
+	}
+
+	&__wrapper {
+		width: 25%;
+    	text-align: center;
+    	
+
+    	&:hover .services__title {
+  				color: #ef4836;
+		}
+
+		&:hover .services__line{
+			background-color: #ef4836;
+		}
+
+		&:hover svg.services__icon{
+			fill: #ef4836;
+		}
+    	
+	}
+
+	&__icon{
+		margin-bottom: 1.8vw;
+		width: 20%;
+		height: 20%;
+	}
+
+	&__icon--web{
+		margin-bottom: 1.25vw;
+	}
+
+	&__icon--marketing{
+		margin-bottom: 1.6vw;
+	}
+
+	&__title{
+		font-size: 1.375vw;
+		font-weight: 600;
+		margin-bottom: 1.188vw;
+	}
+
+	&__text{
+		font-family: 'Montserrat', sans-serif;
+		color:  #8c8c8c;
+		font-size: 0.875vw;
+		font-weight: 300;
+		line-height: 1.714;
+	}
+
+
+	&__line{
+		background-color:  #c7b299;
+		width: 4.375vw;
+		height: 0.188vw;
+		display: inline-block;
+		margin: 0 auto;
+		
+	}
+
+}

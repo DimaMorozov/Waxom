@@ -1,0 +1,26 @@
+.label{
+	background: url('../images/label.png') 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 5% 0;
+   
+   &__wrapper{
+   	display: flex;
+   	justify-content: space-between;
+   	align-items: center;
+   	
+   	img{
+   		margin: 5%;
+   	}
+   	
+   	@media all and (max-width: 1200px){
+   		display: flex;
+   		flex-wrap: wrap;
+   	}
+
+   		@media all and (max-width: 768px){
+   		display: flex;
+   		flex-direction: column;
+   	}
+   }
+}

@@ -1,0 +1,71 @@
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #111111;
+    color: #FFF;
+    overflow: hidden;
+    padding-top: 45px;
+    padding-bottom: 45px;
+
+    &__contact {
+        display: flex;
+        float: left;
+
+        .contact__item {
+            color: #545454;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: left;
+            cursor: pointer;
+
+            span {
+                color: #959595;
+
+                &:hover {
+                    color: #00bff3;
+                }
+            }
+
+            &:hover {
+                color: #c7b299;
+            }
+        }
+    }
+
+    &__theme {
+        display: flex;
+        float: right;
+
+        .theme__item {
+            color: #545454;
+            font-size: 13px;
+            font-weight: 300;
+            line-height: 20px;
+            text-align: right;
+            cursor: pointer;
+
+            span {
+                color: #959595;
+
+                &:hover {
+                    color: #00bff3;
+                }
+            }
+
+            &:hover {
+                color: #c7b299;
+            }
+        }
+    }
+
+    &__line {
+        display: inline-block;
+        width: 1px;
+        height: 10px;
+        background-color: #FFF;
+        margin: 0 10px;
+        vertical-align: -2%;
+        background-color: #545454;
+        opacity: 0.3;
+    }
+}

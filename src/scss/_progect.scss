@@ -1,0 +1,168 @@
+.progect{
+    background: white;
+	padding-top: 5%;
+	padding-bottom: 4%;
+
+	&__title{
+		font-family: 'Raleway', sans-serif;
+		color:  #555555;
+		font-weight: 600;
+		text-align: center;
+		margin-bottom: 1.5em;
+		
+		@media all and (max-width: 900px){
+			margin-bottom: 1em;
+			font-size: 3em;
+		}
+	}
+
+	&__text{
+		font-family: 'Montserrat', sans-serif;
+		color:  #8c8c8c;
+		font-size: 1vw;
+		font-weight: 300;
+		line-height: 1.75;
+		text-align: center;
+		margin-bottom: 3.125em;
+		
+		@media all and (max-width: 900px){
+			font-size: 1em;
+			font-weight: 500;
+		}
+	}
+
+	&__btn{
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+
+
+.collage__wrapper{
+	text-align: center;
+}
+
+.filter__button{
+	margin-right: 0.625em;
+	background-color: transparent;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid #ebebeb;
+	box-sizing: border-box;
+	width: 7.5em;
+	height: 2em;
+	margin-bottom: 	2.5em;
+	
+	&:hover{
+		background-color:  #998675;
+		color: white;
+	}
+
+	@media all and (max-width: 900px){
+			width: 7em;
+			height: 2em;
+			font-size: 1em;
+			margin-bottom: 	1.5em;
+		}
+}
+
+// GRID
+ .grid{
+	display: flex;
+	flex-wrap: wrap;
+	padding-left: 3%;
+	margin-bottom: 5%;
+
+	&__item{
+	width: 30%;
+	margin: 0.5em;
+	cursor: pointer;
+	
+	&:hover .bg-icons{
+		display: block;
+	}
+
+	&:hover .grid__img-background{
+		background-color:  #362f2d;
+	}
+	
+	
+	@media all and (max-width: 1500px){
+		width: 40%;
+		margin-left: 5%;
+	}
+
+	@media all and (max-width: 900px){
+		width: 85%;
+		padding-left: 0;
+		margin-bottom: 2%;
+	}
+  }
+
+	&__img{
+		width: 100%;
+		position: relative;
+	}
+
+
+	.bg-icons{
+			width: 100%;
+			height: 90%;
+			background-color: black;
+			opacity: 0.5;
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 50;
+			padding-top: 30%;	
+			padding-left: 40%;	
+			display: none;
+			
+			
+			&__link{
+				margin-right: 1em;
+				cursor: pointer;
+				position: relative;
+				z-index: 51;
+			}
+
+			&__search{
+				cursor: pointer;
+				z-index: 51;
+			}
+
+		}
+
+	&__img-background{
+		background-color:  #fbfaf8;
+		width: 100%;
+		height: 6.250em;
+		position: relative;
+		top: -4px;
+		padding-top: 1.5em;
+		padding-left: 1.5em;
+		z-index: 100;
+		
+		
+		.bg-title{
+			font-family: 'Raleway', sans-serif;
+			color:  #c7b29a;
+			font-size: 20px;
+			font-weight: 500;
+			text-align: left;
+			margin-bottom: 0.3em;
+		}
+
+		.bg-text{
+			font-family: 'Montserrat', sans-serif;
+			color:  #d1d1d1;
+			font-size: 14px;
+			font-weight: 300;
+			line-height: 20px;
+			text-align: left;
+		}
+	}
+
+   }
+ 

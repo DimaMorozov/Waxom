@@ -1,0 +1,40 @@
+ .btn{
+    	background-color: #998675;
+    	width: 10.5vw;
+   		height: 3.4vw;
+   		color: #FFF;
+    	text-align: center;
+    	box-sizing: border-box;
+    	padding: 0.9vw 1.6vw;
+    	text-decoration: none;
+    	display: block;
+    	border-radius: 3px;
+    	text-transform: uppercase;	
+    	font-size: 0.84vw;
+		font-weight: 700;
+		line-height: 1.643;
+        
+        @media all and (max-width: 900px){
+        background-color: #998675;
+        width: 19.5vw;
+        height: 6.4vw;
+        color: #FFF;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 1.9vw 1.5vw;
+        text-decoration: none;
+        display: block;
+        border-radius: 3px;
+        text-transform: uppercase;  
+        font-size: 1.8vw;
+        font-weight: 700;
+        line-height: 1.643;
+        }
+        
+        &:hover{
+            color: #ef4836;
+            transition: all .5s cubic-bezier(.08, .81, .87, .71);
+            background-color: white;
+            border:  2px solid #ef4836;
+        }
+    }

@@ -1,0 +1,43 @@
+.video{
+	background: url('../images/video-background.png') 50% no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-family: 'Raleway', sans-serif;
+    color:  #ffffff;
+	
+	&__play{
+		margin-bottom: 2%;
+		display: block;
+		text-align: center;
+		
+		img{
+			cursor: pointer;
+		}
+	}
+
+	&__title{
+		margin-bottom: 2%;
+		font-size: 1.875vw;
+		text-align: center;
+		
+	}
+
+	&__text{
+		margin-bottom: 2%;
+		font-size: 1vw;
+		font-weight: 300;
+		line-height: 1.75vw;
+		text-align: center;
+	}
+
+	&__time{
+		font-family: 'Montserrat', sans-serif;
+		color:  #c7b299;
+		font-size: 0.9vw;
+		line-height: 1.5vw;
+		text-align: center;
+		display: block;
+	}
+}

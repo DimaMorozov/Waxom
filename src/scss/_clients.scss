@@ -1,0 +1,62 @@
+.clients{
+	    background: linear-gradient(90deg, #211b19 0%, #4e3427 100%) 50% no-repeat;
+        width: 100%;
+        background-size: cover;
+        clear: both;  
+        padding-top: 4.375em;
+        font-family: 'Montserrat', sans-serif;      
+        
+        &__content{
+        	display: flex;
+        	justify-content: center;
+        }
+	
+	&__wrapper{
+  		float: left;
+        text-align: center;
+        margin: 0 4vw;
+        text-transform: uppercase;
+		
+		&-img{
+			margin-bottom: 1.5em;
+		
+			
+			&--likes{
+				@media all and (max-width: 768px){
+			margin-bottom: 1.8em;
+		}
+	}
+  }
+}
+
+	&__number{
+		display: block;
+		margin-bottom: 0.5em;
+		color:  #ffffff;
+		font-size: 3vw;
+		font-weight: 200;
+		line-height: 2.25vw;
+		
+		}
+	
+
+	&__text{
+		margin-bottom: 1.5em;
+		color:  #c7b299;
+		font-size: 0.8vw;
+		font-weight: 300;
+		line-height: 1.250vw;
+		
+		@media all and (max-width: 768px){
+			font-size: 1.2vw;	
+			line-height: 1.5vw;	
+		}
+	}
+
+	&__line{
+		border-top: 2px solid #ffffff;
+		width: 1.875vw;
+		margin-bottom: 1.5vw;
+		display: inline-block;	
+	}
+}
