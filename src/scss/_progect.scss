@@ -37,8 +37,6 @@
 	}
 }
 
-
-
 .collage__wrapper{
 	text-align: center;
 }
@@ -60,11 +58,11 @@
 	}
 
 	@media all and (max-width: 900px){
-			width: 7em;
-			height: 2em;
-			font-size: 1em;
-			margin-bottom: 	1.5em;
-		}
+		width: 7em;
+		height: 2em;
+		font-size: 1em;
+		margin-bottom: 	1.5em;
+	}
 }
 
 // GRID
@@ -87,7 +85,6 @@
 		background-color:  #362f2d;
 	}
 	
-	
 	@media all and (max-width: 1500px){
 		width: 40%;
 		margin-left: 5%;
@@ -105,19 +102,18 @@
 		position: relative;
 	}
 
-
 	.bg-icons{
-			width: 100%;
-			height: 90%;
-			background-color: black;
-			opacity: 0.5;
-			position: absolute;
-			top: 0;
-			left: 0;
-			z-index: 50;
-			padding-top: 30%;	
-			padding-left: 40%;	
-			display: none;
+		width: 100%;
+		height: 90%;
+		background-color: black;
+		opacity: 0.5;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 50;
+		padding-top: 30%;	
+		padding-left: 40%;	
+		display: none;
 			
 			
 			&__link{
@@ -131,7 +127,6 @@
 				cursor: pointer;
 				z-index: 51;
 			}
-
 		}
 
 	&__img-background{
@@ -143,7 +138,6 @@
 		padding-top: 1.5em;
 		padding-left: 1.5em;
 		z-index: 100;
-		
 		
 		.bg-title{
 			font-family: 'Raleway', sans-serif;
@@ -163,6 +157,5 @@
 			text-align: left;
 		}
 	}
-
-   }
+ }
  

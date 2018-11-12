@@ -46,7 +46,7 @@
         
         @media all and (max-width: 768px){
             font-size: 24px;
-            }
+        }
     }
 
     .logo__image {
@@ -56,7 +56,7 @@
         @media all and (max-width: 768px){
             width: 12vw;
             height: 12vw;
-            }
+        }
     }
 
     &__waxom {
@@ -135,7 +135,6 @@
         &__content {
             margin-bottom: 21px;
         }
-
     }
 
     &__line {
@@ -144,7 +143,6 @@
         height: 2px;
         display: block;
         margin-bottom: 21px;
-
     }
 
     .twitter {

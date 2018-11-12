@@ -19,14 +19,13 @@
 		
 		&-img{
 			margin-bottom: 1.5em;
-		
 			
 			&--likes{
 				@media all and (max-width: 768px){
 			margin-bottom: 1.8em;
 		}
-	}
-  }
+	 }
+   }
 }
 
 	&__number{
@@ -36,10 +35,8 @@
 		font-size: 3vw;
 		font-weight: 200;
 		line-height: 2.25vw;
-		
 		}
 	
-
 	&__text{
 		margin-bottom: 1.5em;
 		color:  #c7b299;

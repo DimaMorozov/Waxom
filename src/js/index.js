@@ -7,7 +7,7 @@ $(function () {
         autoplay: true,
         autoplaySpeed: 4000,
         prevArrow: $('.prev'),
-  		nextArrow: $('.next'),
+  		  nextArrow: $('.next'),
     });
 });
 
@@ -16,17 +16,12 @@ $(function () {
        $('.menu__wrapper').fadeToggle();
     });
 
-
  // CAROUSEL
-
 $(document).ready(function() {
   var carousel = $('.carousel').waterwheelCarousel();
 });
 
-
 // ISOTOPE
-
-
 $(document).ready(function() {
     $('.grid').isotope({
         itemSelector: '.grid__item',
@@ -43,9 +38,7 @@ $(document).ready(function() {
 
 });
 
-
 // ACCORDION
-
 $(document).ready(function() {
   //прикрепляем клик по заголовкам acc-head
     $(' .mobile-device__list .mobile-device__item').on('click', f_acc);
@@ -58,9 +51,7 @@ function f_acc(){
     $(this).next().slideToggle(1000);
 }
 
-
 // SCROLL
-
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')
@@ -108,9 +99,7 @@ $('a[href*="#"]')
       slidesToScroll: 1
     });
 
-
   // MAP
-
   $(window).ready(function(){
   const $map = $('#map');
   // The location of Kremenchuk

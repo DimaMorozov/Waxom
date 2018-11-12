@@ -14,7 +14,6 @@
 	&__wrapper {
 		width: 25%;
     	text-align: center;
-    	
 
     	&:hover .services__title {
   				color: #ef4836;
@@ -27,7 +26,6 @@
 		&:hover svg.services__icon{
 			fill: #ef4836;
 		}
-    	
 	}
 
 	&__icon{
@@ -58,14 +56,11 @@
 		line-height: 1.714;
 	}
 
-
 	&__line{
 		background-color:  #c7b299;
 		width: 4.375vw;
 		height: 0.188vw;
 		display: inline-block;
-		margin: 0 auto;
-		
+		margin: 0 auto;	
 	}
-
 }

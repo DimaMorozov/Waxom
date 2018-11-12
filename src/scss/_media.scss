@@ -1,7 +1,5 @@
  @media all and (max-width: 768px) {
 
-
-
 div.menuToggle{
 		display: flex;
 		position: absolute;
@@ -34,8 +32,6 @@ ul.menu__nav{
 
 div.menu__icon{
 	padding-left: 20%;
-    
-	
 }
 
 .menu__item a.menu__link{
@@ -55,12 +51,8 @@ ul.menu__nav li{
 margin-bottom: 6%;
 }
 
-
-
-
 .header {
     padding-top: 2%;
-
 
     .menu {
 
@@ -70,7 +62,6 @@ margin-bottom: 6%;
             align-items: center;
             margin-bottom: 17%;
             
-
             &__image {
                 width: 12vw;
                 height: 12vw;  
@@ -134,8 +125,7 @@ margin-bottom: 6%;
             .icon-cart {
                 cursor: pointer;
                 width: 4vw;
-                height: 4vw;
-                
+                height: 4vw;       
             }
         }
     }
@@ -203,7 +193,6 @@ margin-bottom: 6%;
             border:  2px solid #ef4836;
         }
     }
-
 }
 
 .prev{
@@ -225,8 +214,6 @@ margin-bottom: 6%;
     width: 2.5vw;
     height: 4vw;
 }
-
-
 
 // SERVICES
 
@@ -250,9 +237,4 @@ div.services__text{
 div.services__line{
     display: none;
 }
-
-// IDEAS
-
-
-
 }
